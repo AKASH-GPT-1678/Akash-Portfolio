@@ -45,7 +45,7 @@ export default function Home() {
 
         <div className="flex flex-row items-center justify-center">
           <div className="flex flex-col   mt-30 ">
-            <p className="text-white text-4xl xl:text-7xl font-bold">Hi , I'm Akash</p>
+            <p className="text-white text-4xl xl:text-7xl font-bold">Hi , I&apos;m Akash</p>
 
             <p className=" font-bold text-2xl lg:text-4xl mt-8   bg-gradient-to-r from-purple-700 via-pink-500 to-fuchsia-400 md:inline-block text-transparent bg-clip-text  md:text-5xl ">Full stack developer</p>
 
