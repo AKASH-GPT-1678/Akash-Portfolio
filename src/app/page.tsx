@@ -9,6 +9,8 @@ import Akash from "../../public/akash.jpg";
 import FrontendDisplay from "./components/frontend";
 import LanguagesDisplay from "./components/languages";
 import BackendDisplay from "./components/backend";
+import DevopsDisplay from "./components/devops";
+import OtherSkills from "./components/otherskills";
 
 export default function Home() {
   return (
@@ -88,18 +90,23 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-white text-4xl font-bold mb-10">Skills</h1>
 
- 
 
-        <FrontendDisplay/>
+
+        <FrontendDisplay />
         <div id="backend">
-          <BackendDisplay/>
+          <BackendDisplay />
 
         </div>
         <div id="language">
-          <LanguagesDisplay/>
+          <LanguagesDisplay />
 
         </div>
         <div id="devops">
+          <DevopsDisplay />
+
+        </div>
+                <div id="devops">
+          <OtherSkills />
 
         </div>
       </div>
@@ -108,7 +115,7 @@ export default function Home() {
     </div>
   );
 }
-       {/* <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[500px] border-2 border-white p-4">
+{/* <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[500px] border-2 border-white p-4">
 
           <div className="flex flex-row gap-2 items-center justify-center text-gray-300 p-2 border-2 border-amber-50 px-3 rounded-2xl">
             <Image src={ReactIcon.src} alt="react" width={100} height={100} className="h-6 w-6" />
