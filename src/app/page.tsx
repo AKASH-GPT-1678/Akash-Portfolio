@@ -11,10 +11,12 @@ import LanguagesDisplay from "./components/languages";
 import BackendDisplay from "./components/backend";
 import DevopsDisplay from "./components/devops";
 import OtherSkills from "./components/otherskills";
+import ProjectDiplay from "./components/projects";
+import ContactDisplay from "./components/contact";
 
 export default function Home() {
   return (
-    <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 " >
+    <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 w-full " >
 
       <div className="h-screen">
 
@@ -87,49 +89,64 @@ export default function Home() {
         </div>
       </div>
 
-   <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center">
+      <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center">
 
-  {/* Frontend */}
-  <div id="frontend" className="flex flex-col gap-4">
-    <div className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-white">Frontend</h1>
-    </div>
-    <FrontendDisplay />
-  </div>
+        {/* Frontend */}
+        <div id="frontend" className="flex flex-col gap-4">
+          <div className="flex items-center justify-center">
+            <h1 className="text-2xl font-bold text-white">Frontend</h1>
+          </div>
+          <FrontendDisplay />
+        </div>
 
-  {/* Backend */}
-  <div id="backend" className="flex flex-col gap-4">
-    <div className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-white">Backend</h1>
-    </div>
-    <BackendDisplay />
-  </div>
+        {/* Backend */}
+        <div id="backend" className="flex flex-col gap-4">
+          <div className="flex items-center justify-center">
+            <h1 className="text-2xl font-bold text-white">Backend</h1>
+          </div>
+          <BackendDisplay />
+        </div>
 
-  {/* Languages */}
-  <div id="language" className="flex flex-col gap-4">
-    <div className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-white">Languages</h1>
-    </div>
-    <LanguagesDisplay />
-  </div>
+        {/* Languages */}
+        <div id="language" className="flex flex-col gap-4">
+          <div className="flex items-center justify-center">
+            <h1 className="text-2xl font-bold text-white">Languages</h1>
+          </div>
+          <LanguagesDisplay />
+        </div>
 
-  {/* DevOps */}
-  <div id="devops" className="flex flex-col gap-4">
-    <div className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-white">DevOps</h1>
-    </div>
-    <DevopsDisplay />
-  </div>
+        {/* DevOps */}
+        <div id="devops" className="flex flex-col gap-4">
+          <div className="flex items-center justify-center">
+            <h1 className="text-2xl font-bold text-white">DevOps</h1>
+          </div>
+          <DevopsDisplay />
+        </div>
 
-  {/* Other Skills */}
-  <div id="other-skills" className="flex flex-col gap-4">
-    <div className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-white">Other Skills</h1>
-    </div>
-    <OtherSkills />
-  </div>
+        {/* Other Skills */}
+        <div id="other-skills" className="flex flex-col gap-4">
+          <div className="flex items-center justify-center">
+            <h1 className="text-2xl font-bold text-white">Other Skills</h1>
+          </div>
+          <OtherSkills />
+        </div>
 
-</div>
+      </div>
+
+      <div className="mt-20">
+
+        <ProjectDiplay />
+      </div>
+
+
+      <div className="w-full border-2 border-white">
+        <div className="flex items-center justify-center">
+          <ContactDisplay/>
+
+        </div>
+
+      </div>
+   
 
 
 

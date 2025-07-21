@@ -4,7 +4,7 @@ import { Languages } from '../data/langauages';
 const LanguagesDisplay = () => {
   return (
      <div>
-            <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[440px] min-h-[200px] border-2 border-white p-4 items-center justify-center">
+            <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[440px] min-h-[200px] border-2 shadow-2xl border-purple-400 rounded-xl p-4 items-center justify-center">
                 {
                     Languages.map((item, index) => {
                         return (

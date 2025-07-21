@@ -1,6 +1,6 @@
 import Docker from "../../../public/Docker.svg";
 import Kubernetes from "../../../public/Kubernetes.svg";
-import Jenkins from "../../../public/Jenkins.svg";  
+import Jenkins from "../../../public/Jenkins.svg";
 import ArgoCD from "../../../public/Argo CD.svg";
 import AWS from "../../../public/AWS.svg";
 import Linux from "../../../public/Linux.svg";
@@ -43,7 +43,7 @@ export const Devops = [
 
 
 
-   
 
-    
+
+
 ]

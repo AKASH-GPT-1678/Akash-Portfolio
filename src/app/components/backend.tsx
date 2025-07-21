@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { Backend } from '../data/backend';
 const BackendDisplay = () => {
     return (
-        <div>
-            <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[440px] min-h-[200px] border-2 border-white p-4 items-center justify-center">
+  
+            <div id="frontend" className="flex flex-row gap-1 flex-wrap  max-w-[440px] min-h-[200px] border-2 shadow-2xl border-purple-400 p-4 items-center justify-center rounded-xl">
                 {
                     Backend.map((item, index) => {
                         return (
@@ -22,7 +22,7 @@ const BackendDisplay = () => {
 
             </div>
 
-        </div>
+     
     )
 };
 
