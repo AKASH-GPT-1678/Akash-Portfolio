@@ -7,6 +7,8 @@ import { FaDownload } from "react-icons/fa6";
 import Akash from "../../public/akash.jpg";
 
 import FrontendDisplay from "./components/frontend";
+import LanguagesDisplay from "./components/languages";
+import BackendDisplay from "./components/backend";
 
 export default function Home() {
   return (
@@ -90,9 +92,11 @@ export default function Home() {
 
         <FrontendDisplay/>
         <div id="backend">
+          <BackendDisplay/>
 
         </div>
         <div id="language">
+          <LanguagesDisplay/>
 
         </div>
         <div id="devops">
