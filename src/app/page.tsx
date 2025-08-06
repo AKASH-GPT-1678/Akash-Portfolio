@@ -5,7 +5,6 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import Gmail from "../../public/gmail.png";
 import { FaDownload } from "react-icons/fa6";
 import Akash from "../../public/akash.jpg";
-
 import FrontendDisplay from "./components/frontend";
 import LanguagesDisplay from "./components/languages";
 import BackendDisplay from "./components/backend";
@@ -139,14 +138,24 @@ export default function Home() {
       </div>
 
 
-      <div className="w-full border-2 border-white">
-        <div className="flex items-center justify-center">
-          <ContactDisplay/>
+      <div className="w-full">
+
+
+        <div className="flex flex-col items-center justify-center">
+          <div>
+            <h1 className="text-4xl font-bold text-white">Contact</h1>
+
+          </div>
+          <div>
+            <ContactDisplay />
+
+          </div>
+
 
         </div>
 
       </div>
-   
+
 
 
 

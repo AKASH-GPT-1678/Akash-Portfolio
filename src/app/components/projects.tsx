@@ -30,13 +30,14 @@ const ProjectDiplay = () => {
                                     {
                                         item.tools.map((item, index) => (
                                             <div key={index} className='flex '>
-                                                <p className='text-white font-semibold p-0.5 rounded-lg bg-purple-700 '>{item}</p>
+                                                <p className='text-white font-semibold p-1 text-md  bg-purple-700 '>{item}</p>
                                             </div>
                                         ))
                                     }
 
                                 </div>
                                 <div className='flex flex-col p-1'>
+                                    <p><p className='text-white font-bold'>{item.name}</p></p>
                                     <p className='text-white'>{item.description}</p>
 
 
@@ -80,6 +81,7 @@ const ProjectDiplay = () => {
 
         </div>
     )
-}
+};
+
 
 export default ProjectDiplay;
