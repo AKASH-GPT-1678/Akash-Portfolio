@@ -29,8 +29,9 @@ const ProjectDiplay = () => {
                                 <div className='w-full flex flex-row flex-wrap gap-3 p-2'>
                                     {
                                         item.tools.map((item, index) => (
-                                            <div key={index} className='flex '>
-                                                <p className='text-white font-semibold p-1 text-md  bg-purple-700 '>{item}</p>
+                                            <div key={index} className=' '>
+                                                <p className='text-white flex-1 font-semibold  text-xs p-1
+                                                 bg-purple-700 '>{item}</p>
                                             </div>
                                         ))
                                     }
