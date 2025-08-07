@@ -1,7 +1,7 @@
 
 import Project from "@/app/projectassets/project.png";
 import FleetOps from "@/app/projectassets/fleetops.png";
-
+import CoconutMedia from '@/app/projectassets/coconut.png';
 const ProjectDetails = [
   {
     name: "FleetOps",
@@ -37,9 +37,9 @@ const ProjectDetails = [
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
   {
-    name: "Full Stack Project Managemnt Web App",
-    image: Project.src,
-    repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Project_Management",
+    name: "Coconut Media Agency WebSite",
+    image: CoconutMedia.src,
+    repositoryUrl: "https://coconut-taupe.vercel.app/",
     liveUrl: "https://rennofrontend.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]

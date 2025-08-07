@@ -37,7 +37,7 @@ const ProjectDiplay = () => {
 
                                 </div>
                                 <div className='flex flex-col p-1'>
-                                    <p><p className='text-white font-bold'>{item.name}</p></p>
+                                    <p className='text-white font-bold'>{item.name}</p>
                                     <p className='text-white'>{item.description}</p>
 
 
