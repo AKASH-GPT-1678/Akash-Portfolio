@@ -15,9 +15,9 @@ import ContactDisplay from "./components/contact";
 
 export default function Home() {
   return (
-    <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 w-full " >
+    <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 w-full flex flex-col justify-center " >
 
-      <div className="h-screen">
+      <div className="h-fit mb-20">
 
         <div className="flex flex-row justify-between">
 
@@ -132,7 +132,7 @@ export default function Home() {
 
       </div>
 
-      <div className="mt-20">
+      <div className="mt-20 flex justify-center">
 
         <ProjectDiplay />
       </div>

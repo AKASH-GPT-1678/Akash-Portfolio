@@ -14,12 +14,12 @@ const ProjectDiplay = () => {
 
             </div>
 
-            <div className='flex flex-row flex-wrap gap-10'>
+            <div className='flex flex-row flex-wrap gap-10 justify-center mt-10'>
 
                 {
                     ProjectDetails.map((item, index) => (
                         <div key={index}>
-                            <div className='max-w-[250px] md:max-w-[300px] flex flex-col min-w-[120px] border-2 border-white p-1'>
+                            <div className='max-w-[250px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-100 p-2'>
 
                                 <div>
 
@@ -29,8 +29,8 @@ const ProjectDiplay = () => {
                                 <div className='w-full flex flex-row flex-wrap gap-3 p-2'>
                                     {
                                         item.tools.map((item, index) => (
-                                            <div key={index} className=' '>
-                                                <p className='text-white flex-1 font-semibold  text-xs p-1
+                                            <div key={index} className=''>
+                                                <p className='text-white flex-1 font-semibold  text-xs p-1 rounded-2xl px-3
                                                  bg-purple-700 '>{item}</p>
                                             </div>
                                         ))
