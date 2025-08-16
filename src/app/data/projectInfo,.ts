@@ -48,8 +48,8 @@ const ProjectDetails = [
   {
     name: "Coconut Media Agency WebSite",
     image: CoconutMedia.src,
-    repositoryUrl: "https://coconut-taupe.vercel.app/",
-    liveUrl: "https://rennofrontend.vercel.app/",
+    repositoryUrl: "https://github.com/AKASH-GPT-1678/Coconut_Media_Website",
+    liveUrl: "https://coconut-taupe.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
@@ -73,7 +73,7 @@ const ProjectDetails = [
     name: "Spotify Frontend Clone",
     image: Spotify.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Spotify_web",
-    liveUrl: "https://rennofrontend.vercel.app/",
+    liveUrl: "https://spotify-web-red.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
