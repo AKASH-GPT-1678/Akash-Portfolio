@@ -35,10 +35,10 @@ export default function Home() {
 
 
             <li className="font-roboto text-xl md:text-2xl cursor-pointer">Home</li>
-            <li className="font-roboto text-2xl cursor-pointer">About</li>
-            <li className="font-roboto text-2xl cursor-pointer">Skills</li>
-            <li className="font-roboto text-2xl cursor-pointer">Project</li>
-            <li className="font-roboto text-2xl cursor-pointer">Contact</li>
+            <li className="font-roboto text-xl cursor-pointer">About</li>
+            <li className="font-roboto text-xl cursor-pointer">Skills</li>
+            <li className="font-roboto text-xl cursor-pointer">Project</li>
+            <li className="font-roboto text-xl cursor-pointer">Contact</li>
 
 
           </ul>
@@ -146,15 +146,15 @@ export default function Home() {
       </div>
 
 
-      <div className="w-full">
+      <div className="">
 
 
-        <div className="flex flex-col items-center justify-center mt-10">
+        <div className="flex flex-col items-center justify-center mt-10 w-full">
           <div>
             <h1 className="text-4xl font-bold text-white">Contact</h1>
 
           </div>
-          <div>
+          <div className="w-full md:w-fit">
             <ContactDisplay />
 
           </div>
