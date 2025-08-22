@@ -19,7 +19,7 @@ const ProjectDiplay = () => {
                 {
                     ProjectDetails.map((item, index) => (
                         <div key={index}>
-                            <div className='max-w-[250px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-100 p-2'>
+                            <div className='max-w-[300px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-100 p-2'>
 
                                 <div>
 
@@ -42,14 +42,14 @@ const ProjectDiplay = () => {
                                     <p className='text-white'>{item.description}</p>
 
 
-                                    <div className='flex flex-row justify-between mt-6'>
-                                        <button className='p-2 border-2 border-white text-white flex flex-row gap-2 items-center justify-center font-bold cursor-pointer' onClick={() => window.open(item.repositoryUrl)}>
+                                    <div className='flex flex-row justify-between mt-6 w-full space-x-2'>
+                                        <button className='p-2 border-2 border-white w-[50%] text-white flex flex-row gap-2 items-center justify-center font-bold cursor-pointer' onClick={() => window.open(item.repositoryUrl)}>
                                             Repository
 
                                             <FaGithub size={24} />
 
                                         </button>
-                                        <button className='p-2 border-2 border-white text-white flex flex-row gap-2 items-center justify-center font-bold px-6 cursor-pointer' onClick={() => window.open(item.liveUrl)}>
+                                        <button className='p-2 border-2 border-white w-[50%] text-white flex flex-row gap-2 items-center justify-center font-bold px-2 md:px-6 cursor-pointer' onClick={() => window.open(item.liveUrl)}>
                                             Live
 
                                             <IoCaretForwardCircle size={24} />

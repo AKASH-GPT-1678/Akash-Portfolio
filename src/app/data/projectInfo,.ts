@@ -15,7 +15,7 @@ const ProjectDetails = [
     name: "FleetOps",
     image: FleetOps.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/FleetOps",
-    liveUrl: "https://rennofrontend.vercel.app/",
+    liveUrl: "https://fleet-3ey5syuwv-akash-gupta-s-projects-b3af644f.vercel.app/",
     description: "A Full Stack Logistic and Inventory Management Web App with real time Vehicle Tracking with Integrated Maps ",
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
@@ -33,7 +33,7 @@ const ProjectDetails = [
     image: LiveStock.src,
 
     repositoryUrl: "https://github.com/AKASH-GPT-1678/B2B-Meat-Web",
-    liveUrl: "https://rennofrontend.vercel.app/",
+    liveUrl: "https://b2-b-meat-web-pdvm.vercel.app/",
     description: "A Live Stock Trading WebSite with Real Chat Functionality with Sellers and Buyers and ",
     tools: ["Next.js", "Spring Boot", "Razorpay", "Redux", "Shadcn UI", "Socket.io"]
   },

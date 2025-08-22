@@ -74,7 +74,15 @@ export default function Home() {
 
               <FaGithub size={24} fill="white" className="cursor-pointer" onClick={() => window.open("https://github.com/AKASH-GPT-1678", "_blank")} />
               <AiOutlineLinkedin size={24} fill="white " className="cursor-pointer bg-blue-600 overflow-hidden" />
-              <Image src={Gmail} alt="gmaail" className="h-6 w-6 cursor-pointer" />
+              <Image
+                src={Gmail}
+                alt="gmail"
+                className="h-6 w-6 cursor-pointer"
+                onClick={() =>
+                  window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWsgNxSHmxdMjxsWfDXmXcRjvbnhzlpbkNPGnWtSNBzQNQHzTcgdvQLvKhVRVgxHCMHg", "_blank")
+                }
+              />
+
 
             </div>
 
@@ -141,7 +149,7 @@ export default function Home() {
       <div className="w-full">
 
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-10">
           <div>
             <h1 className="text-4xl font-bold text-white">Contact</h1>
 
