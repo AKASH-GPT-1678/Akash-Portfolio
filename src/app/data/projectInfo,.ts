@@ -57,7 +57,7 @@ const ProjectDetails = [
     name: "ChatterBox ChatApp",
     image: ChatApp.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Chatapp",
-    liveUrl: "https://full-stack-chatapp-qaoczitqi-akash-gupta-s-projects-b3af644f.vercel.app/",
+    liveUrl: "https://full-stack-chatapp-smoky.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
     tools: ["Vite React", "Express", "Redis", "Mongdb", "random", "redux react"]
   },
