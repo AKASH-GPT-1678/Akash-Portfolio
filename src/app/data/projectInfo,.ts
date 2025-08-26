@@ -15,7 +15,7 @@ const ProjectDetails = [
     name: "FleetOps",
     image: FleetOps.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/FleetOps",
-    liveUrl: "https://fleet-3ey5syuwv-akash-gupta-s-projects-b3af644f.vercel.app/",
+    liveUrl: "https://fleet-ops-tau.vercel.app/",
     description: "A Full Stack Logistic and Inventory Management Web App with real time Vehicle Tracking with Integrated Maps ",
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
