@@ -21,7 +21,7 @@ const ProjectDetails = [
   },
 
   {
-    name: "Full Stack Project Managemnt Web App",
+    name: "Project Management Web App",
     image: Project.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Project_Management",
     liveUrl: "https://rennofrontend.vercel.app/",
@@ -66,8 +66,8 @@ const ProjectDetails = [
     image: Polytika.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/PolyTikka",
     liveUrl: "https://poly-tikka.vercel.app//",
-    description: "A Simple Rating Webiste for Politicians Inspired by IMDB but for leaders Built using Pure HTML and CSS and JS No Extra Frameworks",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+    description: "An IMDb-style rating platform for politicians, built with pure HTML, CSS & JS no frameworks",
+    tools: ["CSS", "HTML", "JavaScript","random", "redux react"]
   },
   {
     name: "Spotify Frontend Clone",
