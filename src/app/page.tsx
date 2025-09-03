@@ -34,7 +34,7 @@ export default function Home() {
           <ul className="flex flex-row gap-4 w-full md:w-fit  md:gap-8 text-white justify-evenly font-bold">
 
 
-            <li className="font-roboto text-xl md:text-2xl cursor-pointer">Home</li>
+            <li className="font-roboto text-xl  cursor-pointer">Home</li>
             <li className="font-roboto text-xl cursor-pointer">About</li>
             <li className="font-roboto text-xl cursor-pointer">Skills</li>
             <li className="font-roboto text-xl cursor-pointer">Project</li>

@@ -19,7 +19,7 @@ const ProjectDiplay = () => {
                 {
                     ProjectDetails.map((item, index) => (
                         <div key={index}>
-                            <div className='max-w-[300px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-50 p-2'>
+                            <div className='max-w-[300px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-50 p-2 hover:scale-105 duration-300'>
 
                                 <div>
 
