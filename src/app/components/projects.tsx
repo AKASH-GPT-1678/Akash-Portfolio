@@ -18,58 +18,56 @@ const ProjectDiplay = () => {
 
                 {
                     ProjectDetails.map((item, index) => (
-                        <div key={index}>
-                            <div className='max-w-[300px] md:max-w-[300px] flex flex-col min-w-[120px] border border-gray-50 p-2 hover:scale-105 duration-300'>
+                        <div key={index} className="p-4">
+                            <div className="max-w-[300px] min-w-[150px] bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex flex-col">
 
-                                <div>
-
-
-                                    <Image src={item.image} alt='projectImage' width={200} height={200} className='w-full h-40 rounded-lg' />
+                                {/* Project Image */}
+                                <div className="w-full h-40 overflow-hidden">
+                                    <Image
+                                        src={item.image}
+                                        alt="projectImage"
+                                        width={300}
+                                        height={160}
+                                        className="w-full h-full object-cover rounded-t-xl"
+                                    />
                                 </div>
-                                <div className='w-full flex flex-row flex-wrap gap-3 p-2'>
-                                    {
-                                        item.tools.map((item, index) => (
-                                            <div key={index} className=''>
-                                                <p className='text-white flex-1 font-semibold  text-xs p-1 rounded-2xl px-3
-                                                 bg-purple-700 '>{item}</p>
-                                            </div>
-                                        ))
-                                    }
 
+                                {/* Tools */}
+                                <div className="flex flex-wrap gap-2 p-3">
+                                    {item.tools.map((tool, idx) => (
+                                        <span
+                                            key={idx}
+                                            className="bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full"
+                                        >
+                                            {tool}
+                                        </span>
+                                    ))}
                                 </div>
-                                <div className='flex flex-col p-1'>
-                                    <p className='text-white font-bold'>{item.name}</p>
-                                    <p className='text-white'>{item.description}</p>
 
+                                {/* Project Details */}
+                                <div className="flex flex-col p-3 flex-1">
+                                    <h3 className="text-white text-lg font-bold mb-1">{item.name}</h3>
+                                    <p className="text-gray-300 text-sm">{item.description}</p>
 
-                                    <div className='flex flex-row justify-between mt-6 w-full space-x-2'>
-                                        <button className='p-2 border-2 border-white w-[50%] text-white flex flex-row gap-2 items-center justify-center font-bold cursor-pointer' onClick={() => window.open(item.repositoryUrl)}>
-                                            Repository
-
-                                            <FaGithub size={24} />
-
+                                    {/* Buttons */}
+                                    <div className="flex mt-4 gap-3">
+                                        <button
+                                            onClick={() => window.open(item.repositoryUrl)}
+                                            className="flex-1 flex items-center justify-center gap-2 border-2 border-purple-600 text-purple-600 font-bold py-2 rounded-lg hover:bg-purple-600 hover:text-white transition-all"
+                                        >
+                                            <FaGithub size={20} /> Repository
                                         </button>
-                                        <button className='p-2 border-2 border-white w-[50%] text-white flex flex-row gap-2 items-center justify-center font-bold px-2 md:px-6 cursor-pointer' onClick={() => window.open(item.liveUrl)}>
-                                            Live
-
-                                            <IoCaretForwardCircle size={24} />
-
-
-
+                                        <button
+                                            onClick={() => window.open(item.liveUrl)}
+                                            className="flex-1 flex items-center justify-center gap-2 border-2 border-green-500 text-green-500 font-bold py-2 rounded-lg hover:bg-green-500 hover:text-white transition-all"
+                                        >
+                                            <IoCaretForwardCircle size={20} /> Live
                                         </button>
-
-
                                     </div>
-
                                 </div>
-
-
-
-
-
-
                             </div>
                         </div>
+
                     ))
 
 
