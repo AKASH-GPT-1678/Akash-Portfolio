@@ -7,6 +7,7 @@ import JestIcon from    "../../../public/Jest.svg";
 import GitHub from "../../../public/Git.svg";
 import VsCode from "../../../public/Visual Studio Code (VS Code).svg";
 import Intellij from  "../../../public/IntelliJ IDEA.svg";
+import Expo from "../../../public/expo.svg";
 export const Otherskills = [
     {
         name: "Android Studio",
@@ -17,8 +18,8 @@ export const Otherskills = [
         icon: JetPackCompose.src,
     },
     {
-        name: "Firebase",
-        icon: JetPackCompose.src,
+        name: "React Native",
+        icon: Expo.src,
     },
     {
         name: "Ethereum",

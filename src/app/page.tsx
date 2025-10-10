@@ -19,11 +19,9 @@ export default function Home() {
 
       <div className="h-fit mb-20">
 
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between  w-full">
 
-          <h1 className="
-
-        hidden 
+          <h1 className="hidden 
         
         
         bg-gradient-to-r from-purple-700 via-pink-500 to-fuchsia-400 md:inline-block text-transparent bg-clip-text text-2xl md:text-5xl font-bold after:content-['</>']">
