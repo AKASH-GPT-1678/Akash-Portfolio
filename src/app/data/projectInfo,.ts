@@ -29,7 +29,7 @@ const ProjectDetails = [
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
   {
-    name: "B2B LiveStock Trading WebSite",
+    name: "B2B LiveStock Trading Website",
     image: LiveStock.src,
 
     repositoryUrl: "https://github.com/AKASH-GPT-1678/B2B-Meat-Web",
@@ -38,7 +38,7 @@ const ProjectDetails = [
     tools: ["Next.js", "Spring Boot", "Razorpay", "Redux", "Shadcn UI", "Socket.io"]
   },
   {
-    name: "Sutherlamd Company WebSite",
+    name: "Sutherlamd Company Website",
     image: SutherLand.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/sutherland_website",
     liveUrl: "https://sutherland-website-hkie57kx0-akash-gupta-s-projects-b3af644f.vercel.app/",
@@ -46,7 +46,7 @@ const ProjectDetails = [
     tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
   },
   {
-    name: "Coconut Media Agency WebSite",
+    name: "Coconut Media Agency Website",
     image: CoconutMedia.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Coconut_Media_Website",
     liveUrl: "https://coconut-taupe.vercel.app/",
@@ -62,7 +62,7 @@ const ProjectDetails = [
     tools: ["Vite React", "Express", "Redis", "Mongdb", "random", "redux react"]
   },
   {
-    name: "Polytika Rate Politicians WebSite",
+    name: "Rate Politicians WebSite",
     image: Polytika.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/PolyTikka",
     liveUrl: "https://poly-tikka.vercel.app//",
