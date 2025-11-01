@@ -1,10 +1,12 @@
-import NodeExpress from "../../../public/node.svg";
-import SpringBoot from "../../../public/Spring.svg";
-import PostGres from "../../../public/postgres.svg";
-import MongoDb from "../../../public/MongoDB.svg";
-import Nestjs from "../../../public/Nest.js.svg";
-import GraphQl from "../../../public/GraphQL.svg";
-import SocketIo from "../../../public/Socket.io.svg";
+// import NodeExpress from "../../../public/node.svg";
+import NodeExpress from "@/public/node.svg";
+import SpringBoot from "@/public/Spring.svg";
+import PostGres from "@/public/postgres.svg";
+import MongoDb from "@/public/MongoDB.svg";
+import Nestjs from "@/public/Nest.js.svg";
+import GraphQl from "@/public/GraphQL.svg";
+import SocketIo from "@/public/Socket.io.svg";
+
 export const Backend = [
     {
         name: "Node Js",
