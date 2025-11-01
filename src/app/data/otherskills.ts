@@ -1,13 +1,14 @@
-import Android from "../../../public/android.svg";
-import JetPackCompose from "../../../public/Android Studio.svg";
-import Ethureum from "../../../public/ethereum.svg";
-import HardHat from "../../../public/Hardhat.svg";
-import PostMan from "../../../public/Postman.svg";
-import JestIcon from    "../../../public/Jest.svg";
-import GitHub from "../../../public/Git.svg";
-import VsCode from "../../../public/Visual Studio Code (VS Code).svg";
-import Intellij from  "../../../public/IntelliJ IDEA.svg";
-import Expo from "../../../public/expo.svg";
+import Android from "@/public/android.svg";
+import JetPackCompose from "@/public/Android Studio.svg";
+import Ethureum from "@/public/ethereum.svg";
+import HardHat from "@/public/Hardhat.svg";
+import PostMan from "@/public/Postman.svg";
+import JestIcon from "@/public/Jest.svg";
+import GitHub from "@/public/Git.svg";
+import VsCode from "@/public/Visual Studio Code (VS Code).svg";
+import Intellij from "@/public/IntelliJ IDEA.svg";
+import Expo from "@/public/expo.svg";
+
 export const Otherskills = [
     {
         name: "Android Studio",

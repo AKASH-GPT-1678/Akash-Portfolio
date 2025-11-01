@@ -1,12 +1,12 @@
-import ReactIcon from "../../../public/react.png";
-import NextIcon from "../../../public/next.png";
-import TailwindIcon from "../../../public/tailwindcss.png";
-import HtmlIcon from "../../../public/html.png";
-import CssIcon from "../../../public/css.png";
-import JavascriptIcon from "../../../public/javascript.png";
-import FramerIcon from "../../../public/framer.png";
-import ShadCnIcon from "../../../public/shadcnicon.png";
-import TypeScriptIcon from "../../../public/typescript.png";
+import ReactIcon from "@/public/react.png";
+import NextIcon from "@/public/next.png";
+import TailwindIcon from "@/public/tailwindcss.png";
+import HtmlIcon from "@/public/html.png";
+import CssIcon from "@/public/css.png";
+import JavascriptIcon from "@/public/javascript.png";
+import FramerIcon from "@/public/framer.png";
+import ShadCnIcon from "@/public/shadcnicon.png";
+import TypeScriptIcon from "@/public/typescript.png";
 
 
 

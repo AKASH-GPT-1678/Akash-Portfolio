@@ -1,8 +1,9 @@
-import JavaScript from "../../../public/javascript.svg";
-import Java from "../../../public/javaimg.svg";
-import Python from "../../../public/python.svg";
-import Solidity from "../../../public/solidity.svg";
-import Kotlin from "../../../public/kotlin.svg";
+import JavaScript from "@/public/javascript.svg";
+import Java from "@/public/javaimg.svg";
+import Python from "@/public/python.svg";
+import Solidity from "@/public/solidity.svg";
+import Kotlin from "@/public/kotlin.svg";
+
 
 export const Languages = [
     {
