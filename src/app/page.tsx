@@ -14,6 +14,13 @@ import ProjectDiplay from "./components/projects";
 import ContactDisplay from "./components/contact";
 
 export default function Home() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/akash_resume.pdf"; // correct path (inside public)
+    link.download = "Akash Gupta Resume.pdf"; // name to save as
+    link.click();
+  };
+
   return (
     <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 w-full flex flex-col justify-center " >
 
@@ -64,7 +71,11 @@ export default function Home() {
 
                 <div className="absolute inset-0 bg-amber-400 blur-md rounded-[2rem] opacity-60 z-0" />
 
-                <button className="relative z-10 p-4 bg-amber-400 rounded-[2rem] cursor-pointer text-black font-bold flex flex-row gap-2 items-center shadow-md">
+                <button className="relative z-10 p-4 bg-amber-400 rounded-[2rem] cursor-pointer text-black font-bold flex flex-row gap-2 items-center shadow-md"
+                onClick={handleDownload}
+                
+                >
+
                   Download Resume <FaDownload size={18} />
                 </button>
               </div>
