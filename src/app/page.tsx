@@ -12,6 +12,7 @@ import DevopsDisplay from "./components/devops";
 import OtherSkills from "./components/otherskills";
 import ProjectDiplay from "./components/projects";
 import ContactDisplay from "./components/contact";
+import { BsTwitterX } from "react-icons/bs";
 
 export default function Home() {
   const handleDownload = () => {
@@ -91,6 +92,8 @@ export default function Home() {
                   window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWsgNxSHmxdMjxsWfDXmXcRjvbnhzlpbkNPGnWtSNBzQNQHzTcgdvQLvKhVRVgxHCMHg", "_blank")
                 }
               />
+              <BsTwitterX size={20} fill="white" className="cursor-pointer" onClick={() => window.open("https://x.com/akash_gpt_", "_blank")} />
+
 
 
             </div>
