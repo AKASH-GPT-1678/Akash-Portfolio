@@ -69,14 +69,14 @@ const ProjectDetails = [
     description: "An IMDb-style rating platform for politicians, built with pure HTML, CSS & JS no frameworks",
     tools: ["CSS", "HTML", "JavaScript","random", "redux react"]
   },
-  {
-    name: "Spotify Frontend Clone",
-    image: Spotify.src,
-    repositoryUrl: "https://github.com/AKASH-GPT-1678/Spotify_web",
-    liveUrl: "https://spotify-web-red.vercel.app/",
-    description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
-  },
+  // {
+  //   name: "Spotify Frontend Clone",
+  //   image: Spotify.src,
+  //   repositoryUrl: "https://github.com/AKASH-GPT-1678/Spotify_web",
+  //   liveUrl: "https://spotify-web-red.vercel.app/",
+  //   description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
+  //   tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+  // },
 
 
 ];
