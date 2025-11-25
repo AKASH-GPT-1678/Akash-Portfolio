@@ -15,12 +15,13 @@ import ContactDisplay from "./components/contact";
 import { BsTwitterX } from "react-icons/bs";
 
 export default function Home() {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/akash_resume.pdf"; // correct path (inside public)
-    link.download = "Akash Gupta Resume.pdf"; // name to save as
-    link.click();
-  };
+const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = "/Akash_Gupta_FullStack_Developer_Resume.pdf"; 
+  link.download = "Akash Gupta Resume.pdf"; 
+  link.click();
+};
+
 
   return (
     <div style={{ backgroundImage: "url('https://res.cloudinary.com/dffepahvl/image/upload/v1752875688/ifehmu2g3t6vluifruxl.jpg')", height: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className="h-screen p-4 md:p-10 w-full flex flex-col justify-center " >
@@ -110,7 +111,7 @@ export default function Home() {
 
       <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center">
 
-        {/* Frontend */}
+    
         <div id="frontend" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Frontend</h1>
@@ -118,7 +119,7 @@ export default function Home() {
           <FrontendDisplay />
         </div>
 
-        {/* Backend */}
+        
         <div id="backend" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Backend</h1>
@@ -126,15 +127,15 @@ export default function Home() {
           <BackendDisplay />
         </div>
 
-        {/* Languages */}
-        <div id="language" className="flex flex-col gap-4">
+     
+        <div id="language" className="flex flex-col gap-4" draggable="true">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Languages</h1>
           </div>
           <LanguagesDisplay />
         </div>
 
-        {/* DevOps */}
+  
         <div id="devops" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">DevOps</h1>
@@ -142,7 +143,7 @@ export default function Home() {
           <DevopsDisplay />
         </div>
 
-        {/* Other Skills */}
+      
         <div id="other-skills" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Other Skills</h1>

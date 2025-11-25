@@ -10,7 +10,7 @@ const ContactDisplay = () => {
 
 
                     <label htmlFor="" className='text-2xl text-white font-bold'>Name</label>
-                    <input type="text" placeholder='Enter your name' className='p-3 md:w-[500px] border-2 border-white placeholder:text-white mt-2' />
+                    <input type="text" placeholder='Enter your name' className='p-3 md:w-[500px] border-2 border-gray-50 placeholder:text-white mt-2' />
                 </div>
                 <div className='flex flex-col gap-2'>
 
