@@ -13,14 +13,22 @@ import OtherSkills from "./components/otherskills";
 import ProjectDiplay from "./components/projects";
 import ContactDisplay from "./components/contact";
 import { BsTwitterX } from "react-icons/bs";
+import Link from "next/link";
 
 export default function Home() {
-const handleDownload = () => {
-  const link = document.createElement("a");
-  link.href = "/Akash_Gupta_FullStack_Developer_Resume.pdf"; 
-  link.download = "Akash Gupta Resume.pdf"; 
-  link.click();
-};
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Akash_Gupta_FullStack_Developer_Resume.pdf";
+    link.download = "Akash Gupta Resume.pdf";
+    link.click();
+  };
+  const handleScroll = (path: string) => {
+    const projects = document.getElementById(path);
+    if (projects) {
+      projects.scrollIntoView({ behavior: "smooth" });
+    }
+
+  }
 
 
   return (
@@ -28,7 +36,7 @@ const handleDownload = () => {
 
       <div className="h-fit mb-20">
 
-        <div className="flex flex-row justify-between  w-full">
+        <div className="flex flex-row justify-between  w-full ">
 
           <h1 className="hidden 
         
@@ -43,9 +51,10 @@ const handleDownload = () => {
 
             <li className="font-roboto text-xl  cursor-pointer">Home</li>
             <li className="font-roboto text-xl cursor-pointer">About</li>
-            <li className="font-roboto text-xl cursor-pointer">Skills</li>
-            <li className="font-roboto text-xl cursor-pointer">Project</li>
-            <li className="font-roboto text-xl cursor-pointer">Contact</li>
+            <li className="font-roboto text-xl cursor-pointer" onClick={() => handleScroll("skills")}>Skills</li>
+            <li className="font-roboto text-xl cursor-pointer"
+              onClick={() => handleScroll("projects")}>Project</li>
+            <li className="font-roboto text-xl cursor-pointer" onClick={()=>handleScroll("contacts")}>Contact</li>
 
 
           </ul>
@@ -74,8 +83,8 @@ const handleDownload = () => {
                 <div className="absolute inset-0 bg-amber-400 blur-md rounded-[2rem] opacity-60 z-0" />
 
                 <button className="relative z-10 p-4 bg-amber-400 rounded-[2rem] cursor-pointer text-black font-bold flex flex-row gap-2 items-center shadow-md"
-                onClick={handleDownload}
-                
+                  onClick={handleDownload}
+
                 >
 
                   Download Resume <FaDownload size={18} />
@@ -85,14 +94,20 @@ const handleDownload = () => {
 
               <FaGithub size={24} fill="white" className="cursor-pointer" onClick={() => window.open("https://github.com/AKASH-GPT-1678", "_blank")} />
               <AiOutlineLinkedin size={24} fill="white " className="cursor-pointer bg-blue-600 overflow-hidden" />
+
+
+
               <Image
                 src={Gmail}
                 alt="gmail"
-                className="h-6 w-6 cursor-pointer"
-                onClick={() =>
-                  window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWsgNxSHmxdMjxsWfDXmXcRjvbnhzlpbkNPGnWtSNBzQNQHzTcgdvQLvKhVRVgxHCMHg", "_blank")
-                }
+                width={24}
+                height={24}
+                className="cursor-pointer"
+                onClick={() => window.open("/")}
               />
+
+
+
               <BsTwitterX size={20} fill="white" className="cursor-pointer" onClick={() => window.open("https://x.com/akash_gpt_", "_blank")} />
 
 
@@ -109,9 +124,9 @@ const handleDownload = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center">
+      <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center" id="skills">
 
-    
+
         <div id="frontend" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Frontend</h1>
@@ -119,7 +134,7 @@ const handleDownload = () => {
           <FrontendDisplay />
         </div>
 
-        
+
         <div id="backend" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Backend</h1>
@@ -127,7 +142,7 @@ const handleDownload = () => {
           <BackendDisplay />
         </div>
 
-     
+
         <div id="language" className="flex flex-col gap-4" draggable="true">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Languages</h1>
@@ -135,7 +150,7 @@ const handleDownload = () => {
           <LanguagesDisplay />
         </div>
 
-  
+
         <div id="devops" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">DevOps</h1>
@@ -143,7 +158,7 @@ const handleDownload = () => {
           <DevopsDisplay />
         </div>
 
-      
+
         <div id="other-skills" className="flex flex-col gap-4">
           <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-white">Other Skills</h1>
@@ -153,7 +168,7 @@ const handleDownload = () => {
 
       </div>
 
-      <div className="mt-20 flex justify-center">
+      <div className="mt-20 flex justify-center" id="projects">
 
         <ProjectDiplay />
       </div>
@@ -162,7 +177,7 @@ const handleDownload = () => {
       <div className="">
 
 
-        <div className="flex flex-col items-center justify-center mt-10 w-full">
+        <div className="flex flex-col items-center justify-center mt-10 w-full"  id="contacts">
           <div>
             <h1 className="text-4xl font-bold text-white">Contact</h1>
 
