@@ -37,7 +37,7 @@ const ProjectDiplay = () => {
                                     {item.tools.map((tool, idx) => (
                                         <span
                                             key={idx}
-                                            className="bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full"
+                                            className="bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full cursor-pointer"
                                         >
                                             {tool}
                                         </span>

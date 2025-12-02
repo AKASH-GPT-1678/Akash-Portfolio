@@ -17,7 +17,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/FleetOps",
     liveUrl: "https://fleet-ops-tau.vercel.app/",
     description: "A Full Stack Logistic and Inventory Management Web App with real time Vehicle Tracking with Integrated Maps ",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+    tools: ["Next.js", "Spring Boot", "Kafka", "Redis", "AWS", "Redux"]
   },
 
   {
@@ -26,7 +26,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Project_Management",
     liveUrl: "https://rennofrontend.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+    tools: ["Next.js", "Express", "Graphql", "Oauth", "Prisma", "Redux", "Tailwind"]
   },
   {
     name: "B2B LiveStock Trading Website",
@@ -34,7 +34,7 @@ const ProjectDetails = [
 
     repositoryUrl: "https://github.com/AKASH-GPT-1678/B2B-Meat-Web",
     liveUrl: "https://b2-b-meat-web-pdvm.vercel.app/",
-    description: "A Live Stock Trading WebSite with Real Chat Functionality with Sellers and Buyers and ",
+    description: "A Live Stock Trading WebSite with Real Chat Functionality with Sellers and Buyers live trading",
     tools: ["Next.js", "Spring Boot", "Razorpay", "Redux", "Shadcn UI", "Socket.io"]
   },
   {
@@ -43,7 +43,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/sutherland_website",
     liveUrl: "https://sutherland-website-hkie57kx0-akash-gupta-s-projects-b3af644f.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+    tools: ["Next.js", "NextAuth", "NextAPI", "Tailwind", "Hook-form", "Railway"]
   },
   {
     name: "Coconut Media Agency Website",
@@ -51,7 +51,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Coconut_Media_Website",
     liveUrl: "https://coconut-taupe.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "express", "graphql", "oauth", "random", "redux react"]
+    tools: ["Next.js", "Shadcn UI", "Tailwind", "Material UI", "Cloudinary", "Framer"]
   },
   {
     name: "ChatterBox ChatApp",
