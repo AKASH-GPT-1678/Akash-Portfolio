@@ -52,4 +52,4 @@ const Frontend = [
 
 export {
     Frontend
-    }
+}
