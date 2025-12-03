@@ -40,7 +40,8 @@ Each project includes:
 ## **🌐 Live Demo**
 
 Visit the live website here:
-[Live Demo][https://theakashgupta.com/]
+[Live Demo](https://theakashgupta.com/)
+
 
 ---
 
