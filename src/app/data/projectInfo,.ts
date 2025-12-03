@@ -59,7 +59,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Chatapp",
     liveUrl: "https://full-stack-chatapp-smoky.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Vite React", "Express", "Redis", "Mongdb", "random", "redux react"]
+    tools: ["Vite React", "Express", "Redis", "Mongdb", "Socket.io", "IndexDB"]
   },
   {
     name: "Rate Politicians WebSite",
@@ -67,7 +67,7 @@ const ProjectDetails = [
     repositoryUrl: "https://github.com/AKASH-GPT-1678/PolyTikka",
     liveUrl: "https://poly-tikka.vercel.app//",
     description: "An IMDb-style rating platform for politicians, built with pure HTML, CSS & JS no frameworks",
-    tools: ["CSS", "HTML", "JavaScript","random", "redux react"]
+    tools: ["CSS", "HTML", "JavaScript","DOM", "JSON", "API"]
   },
   // {
   //   name: "Spotify Frontend Clone",

@@ -21,7 +21,7 @@ const ProjectDiplay = () => {
                         <div key={index} className="p-4">
                             <div className="max-w-[300px] min-w-[150px] bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex flex-col">
 
-                                {/* Project Image */}
+                    
                                 <div className="w-full h-40 overflow-hidden">
                                     <Image
                                         src={item.image}
@@ -32,7 +32,7 @@ const ProjectDiplay = () => {
                                     />
                                 </div>
 
-                                {/* Tools */}
+                       
                                 <div className="flex flex-wrap gap-2 p-3">
                                     {item.tools.map((tool, idx) => (
                                         <span
