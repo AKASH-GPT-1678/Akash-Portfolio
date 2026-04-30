@@ -6,7 +6,7 @@ import LiveStock from '@/app/projectassets/livestock.png';
 import SutherLand from '@/app/projectassets/sutherland.png';
 import ChatApp from '@/app/projectassets/chatapp.png';
 import Polytika from '@/app/projectassets/polytika.png';
-import Spotify from '@/app/projectassets/spotify.png';
+import BookBazar from "@/app/projectassets/bookbaazar.png";
 
 
 
@@ -38,12 +38,12 @@ const ProjectDetails = [
     tools: ["Next.js", "Spring Boot", "Razorpay", "Redux", "Shadcn UI", "Socket.io"]
   },
   {
-    name: "Sutherlamd Company Website",
-    image: SutherLand.src,
-    repositoryUrl: "https://github.com/AKASH-GPT-1678/sutherland_website",
-    liveUrl: "https://sutherland-website-hkie57kx0-akash-gupta-s-projects-b3af644f.vercel.app/",
-    description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "NextAuth", "NextAPI", "Tailwind", "Hook-form", "Railway"]
+    name: "React Native Apps",
+    image: BookBazar.src,
+    repositoryUrl: "https://github.com/AKASH-GPT-1678/Student_mania",
+    liveUrl: "https://github.com/AKASH-GPT-1678/Book-Baazaar",
+    description: "Both Link contains two diffrent React Native projects built from scratch using Expo and React Native CLI",
+    tools: ["Expo", "React Native", "Redux", "Tailwind" , "Clerk"]
   },
   {
     name: "Coconut Media Agency Website",
