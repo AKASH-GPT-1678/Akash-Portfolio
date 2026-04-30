@@ -13,7 +13,7 @@ import OtherSkills from "./components/otherskills";
 import ProjectDiplay from "./components/projects";
 import ContactDisplay from "./components/contact";
 import { BsTwitterX } from "react-icons/bs";
-import Link from "next/link";
+
 
 export default function Home() {
   const handleDownload = () => {

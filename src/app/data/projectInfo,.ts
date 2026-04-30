@@ -3,7 +3,7 @@ import Project from "@/app/projectassets/project.png";
 import FleetOps from "@/app/projectassets/fleetops.png";
 import CoconutMedia from '@/app/projectassets/coconut.png';
 import LiveStock from '@/app/projectassets/livestock.png';
-import SutherLand from '@/app/projectassets/sutherland.png';
+
 import ChatApp from '@/app/projectassets/chatapp.png';
 import Polytika from '@/app/projectassets/polytika.png';
 import BookBazar from "@/app/projectassets/bookbaazar.png";
