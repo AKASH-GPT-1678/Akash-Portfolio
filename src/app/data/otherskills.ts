@@ -42,14 +42,7 @@ export const Otherskills = [
         name: "GitHub",
         icon: GitHub.src,
     },
-    {
-        name: "VS Code",
-        icon: VsCode.src,
-    },
-    {
-        name: "Intellij",
-        icon: Intellij.src,
-    },
+
     
 
 ]
