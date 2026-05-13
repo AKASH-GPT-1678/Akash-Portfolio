@@ -55,7 +55,7 @@ const ContactDisplay = () => {
                         type="text"
                         name="name"
                         placeholder='Enter your name'
-                        className='p-3 md:w-[500px] border-2 border-gray-50 placeholder:text-white mt-2 text-white'
+                        className='p-3 md:w-[500px] border-purple-400 border-2 rounded-lg  placeholder:text-white mt-2 text-white'
                         value={formData.name}
                         onChange={handleChange}
                     />
@@ -67,7 +67,7 @@ const ContactDisplay = () => {
                         type="text"
                         name="email"
                         placeholder='Enter your email'
-                        className='p-3 md:w-[500px] border-2 border-white placeholder:text-white mt-2 text-white'
+                        className='p-3 md:w-[500px] border-2 rounded-lg border-purple-400 placeholder:text-white mt-2 text-white'
                         value={formData.email}
                         onChange={handleChange}
                     />
@@ -80,7 +80,7 @@ const ContactDisplay = () => {
                         name="subject"
                         placeholder='Enter your subject'
                         maxLength={24}
-                        className='p-3 md:w-[500px] border-2 border-white placeholder:text-white mt-2 text-white'
+                        className='p-3 md:w-[500px] border-2 rounded-lg border-purple-400 placeholder:text-white mt-2 text-white'
                         value={formData.subject}
                         onChange={handleChange}
                     />
@@ -92,7 +92,7 @@ const ContactDisplay = () => {
                         type="text"
                         name="message"
                         placeholder='Enter your message'
-                        className='p-3 md:w-[500px] border-2 border-white placeholder:text-white mt-2 text-white'
+                        className='p-3 md:w-[500px] border-2 rounded-lg border-purple-400 placeholder:text-white mt-2 text-white'
                         value={formData.message}
                         onChange={handleChange}
                     />

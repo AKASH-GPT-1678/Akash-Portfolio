@@ -53,13 +53,13 @@ const ProjectDiplay = () => {
                                     <div className="flex mt-4 gap-3">
                                         <button
                                             onClick={() => window.open(item.repositoryUrl)}
-                                            className="flex-1 flex items-center justify-center gap-2 border-2 border-purple-600 text-purple-600 font-bold py-2 rounded-lg hover:bg-purple-600 hover:text-white transition-all"
+                                            className="flex-1 flex items-center justify-center gap-2 border-2 cursor-pointer border-purple-600 text-purple-600 font-bold py-2 rounded-lg hover:bg-purple-600 hover:text-white transition-all"
                                         >
                                             <FaGithub size={20} /> Repository
                                         </button>
                                         <button
                                             onClick={() => window.open(item.liveUrl)}
-                                            className="flex-1 flex items-center justify-center gap-2 border-2 border-green-500 text-green-500 font-bold py-2 rounded-lg hover:bg-green-500 hover:text-white transition-all"
+                                            className="flex-1 flex items-center justify-center gap-2 border-2 cursor-pointer border-green-500 text-green-500 font-bold py-2 rounded-lg hover:bg-green-500 hover:text-white transition-all"
                                         >
                                             <IoCaretForwardCircle size={20} /> Live
                                         </button>
