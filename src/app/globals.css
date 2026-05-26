@@ -5,6 +5,7 @@
 @theme {
   --font-roboto: "Edu+NSW+ACT+Hand+Pre:wght@400..700", "sans-serif"; 
   --animate-scalefade : scalefade 1s ease-in-out infinite;
+    --animate-slow-show: slow-show 3s ease forwards;
 }
 
 
@@ -29,3 +30,13 @@
   }
   
 }
+
+@keyframes slow-show {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }

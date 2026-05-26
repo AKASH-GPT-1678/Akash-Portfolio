@@ -66,11 +66,11 @@ export default function Home() {
 
         <div className="flex flex-row items-center justify-center">
           <div className="flex flex-col   mt-30 ">
-            <p className="text-white text-4xl xl:text-7xl font-bold">Hi , I&apos;m Akash</p>
+            <p className="text-white text-4xl xl:text-7xl font-bold animate-slow-show overflow-hidden whitespace-nowrap">Hi , I&apos;m Akash</p>
 
-            <p className=" font-bold text-2xl lg:text-4xl mt-8   bg-gradient-to-r from-purple-700 via-pink-500 to-fuchsia-400 md:inline-block text-transparent bg-clip-text  md:text-5xl ">Full stack developer</p>
+            <p className=" font-bold text-2xl lg:text-4xl mt-8   bg-gradient-to-r from-purple-700 via-pink-500 to-fuchsia-400 md:inline-block text-transparent bg-clip-text  md:text-5xl animate-slow-show overflow-hidden whitespace-nowrap ">Full stack developer</p>
 
-            <p className="text-white font-bold max-w-[500px]">Crafting and building modern, responsive and user-friendly web and mobile applications </p>
+            <p className="text-white font-bold max-w-[500px] ">Crafting and building modern, responsive and user-friendly web and mobile applications </p>
 
 
 
