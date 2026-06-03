@@ -7,7 +7,7 @@ import LiveStock from '@/app/projectassets/livestock.png';
 import ChatApp from '@/app/projectassets/chatapp.png';
 import Polytika from '@/app/projectassets/polytika.png';
 import BookBazar from "@/app/projectassets/bookbaazar.png";
-
+import Printar from "@/app/projectassets/printar.png";
 
 
 const ProjectDetails = [
@@ -21,12 +21,12 @@ const ProjectDetails = [
   },
 
   {
-    name: "Project Management Web App",
-    image: Project.src,
-    repositoryUrl: "https://github.com/AKASH-GPT-1678/Full_Stack_Project_Management",
-    liveUrl: "https://rennofrontend.vercel.app/",
-    description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
-    tools: ["Next.js", "Express", "Graphql", "Oauth", "Prisma", "Redux", "Tailwind"]
+    name: "Printar",
+    image: Printar.src,
+    repositoryUrl: "https://github.com/AKASH-GPT-1678/SaaS-for-Print",
+    liveUrl: "https://saa-s-for-print-9o5l.vercel.app/",
+    description: "Full Stack Software for Indian printout stores for managing thier work features like sharing docs through scan",
+    tools: ["Next.js", "Java", "Spring Secuirty", "Razorpay", "Redux", "Tailwind"]
   },
   {
     name: "B2B LiveStock Trading Website",
