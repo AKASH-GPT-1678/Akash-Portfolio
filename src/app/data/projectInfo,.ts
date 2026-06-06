@@ -49,7 +49,7 @@ const ProjectDetails = [
     name: "Coconut Media Agency Website",
     image: CoconutMedia.src,
     repositoryUrl: "https://github.com/AKASH-GPT-1678/Coconut_Media_Website",
-    liveUrl: "https://coconut-taupe.vercel.app/",
+    liveUrl: "https://coconut-media-website.vercel.app/",
     description: "Full Stack Project Managemnt Web App and many more thena 100 of featrures to use and enjoy",
     tools: ["Next.js", "Shadcn UI", "Tailwind", "Material UI", "Cloudinary", "Framer"]
   },
