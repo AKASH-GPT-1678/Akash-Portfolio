@@ -18,7 +18,7 @@ import { BsTwitterX } from "react-icons/bs";
 export default function Home() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Akash_Gupta_FullStack_Developer_Resume.pdf";
+    link.href = "Akash_Gupta_Full_Stack_Developer_Resume.pdf";
     link.download = "Akash Gupta Resume.pdf";
     link.click();
   };

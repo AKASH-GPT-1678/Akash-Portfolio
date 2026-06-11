@@ -1,5 +1,3 @@
-
-import Project from "@/app/projectassets/project.png";
 import FleetOps from "@/app/projectassets/fleetops.png";
 import CoconutMedia from '@/app/projectassets/coconut.png';
 import LiveStock from '@/app/projectassets/livestock.png';
